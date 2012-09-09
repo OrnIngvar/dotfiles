@@ -42,3 +42,5 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 if [ -f /usr/local/etc/bash_completion ]; then
   . /usr/local/etc/bash_completion
 fi
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
